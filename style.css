@@ -1,19 +1,92 @@
-/*
- * Assignment 02
- * CSS FILE
- */
+html {
+  font-size: 1.5rem;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
+  background-color: lightblue;
+  color: black;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+header {
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(246, 246, 66);
+  color: pink;
+}
+
+h2{
+  color: purple;
+  font-size: auto;
+}
+
+nav ul {
+  list-style: none;
   text-align: center;
-  color: #023047;
+}
+
+nav ul li {
+  display: inline;
+  margin: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.product-box {
+  border: 0.5rem solid #ccc;
+  padding: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.product-info {
+background-color: lightyellow;
+padding: 1.5rem;
+text-align: center;
+display: inline-block;
+max-width: 40rem;
+
+}
+
+.product-info img {
+max-width: 100%;
+}
+
+.product-info {
+  cursor: pointer;
+  border:none;
+  color: grey;
+
+}
+
+.Customer.Testimonials {
+  font-size: 2.5rem;
+  margin-bottom:2rem;
+}
+
+.form label {
+  display:block;
+  margin-top:1rem;
+  font-weight: bold;
+
+}
+
+.footer .logo img {
+  max-width: 100%;
+
+}
+
+footer nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 2rem;
 }
